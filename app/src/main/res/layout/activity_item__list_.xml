@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ddd"
+    tools:context=".Item_List_Activity">
+
+
+
+
+       <android.support.v7.widget.Toolbar
+           android:id="@+id/list_view_toolbar"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:background="#000"
+           app:title="Biscuits Store"
+           app:titleMarginStart="40dp"
+
+           tools:ignore="MissingConstraints"
+           app:titleTextColor="#fff"
+           />
+
+
+       <android.support.v7.widget.RecyclerView
+           android:id="@+id/recycler_View_item"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:layout_marginTop="60dp"
+           app:layout_constraintBottom_toBottomOf="parent"
+           app:layout_constraintEnd_toEndOf="parent"
+           app:layout_constraintStart_toStartOf="parent"
+           app:layout_constraintTop_toBottomOf="@+id/list_view_toolbar" />
+
+
+
+
+
+
+
+
+</android.support.constraint.ConstraintLayout>

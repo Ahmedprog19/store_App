@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/shopping_cart"
+        android:title="shopping cart"
+        app:showAsAction="always"
+        android:icon="@drawable/shopping_cart_icon2"
+        />
+
+  <item
+      android:id="@+id/listViewToolbar"
+      android:title="listView"
+      app:showAsAction="always"
+      android:icon="@drawable/listicon"
+      />
+
+    <item
+        android:id="@+id/gridViewToolbar"
+        android:title="gridView"
+        app:showAsAction="always"
+        android:icon="@drawable/gridicon2"
+        />
+
+</menu>

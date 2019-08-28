@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:background="#fff"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:background="#fff"
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="5dp"
+        tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:id="@+id/Item_Image_Grid_View"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@mipmap/ic_launcher"/>
+
+        <TextView
+            android:id="@+id/Item_Name_Grid_View"
+            android:layout_width="175dp"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:text="Item Name Arabic"
+            android:gravity="center"
+            android:layout_marginTop="5dp"
+            />
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/Item_Price_Grid_View"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textColor="@color/priceColor"
+                android:textSize="20sp"
+                android:text="00.0"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textColor="@color/priceColor"
+                android:textSize="20sp"
+                android:text="SR"
+                android:layout_marginLeft="7dp"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginTop="2dp"
+            android:background="@drawable/counter_background"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/Item_Increment_Btn_Grid_View"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:text="+"
+                android:textSize="20sp"
+                android:background="@null"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/Item_Counter_Grid_View"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:layout_gravity="center"
+                android:gravity="center"
+
+                android:text="0"/>
+
+            <Button
+                android:id="@+id/Item_Decrement_Btn_Grid_View"
+                android:layout_width="40sp"
+                android:layout_height="wrap_content"
+                android:text="-"
+                android:background="@null"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/Item_Add_Btn_Grid_View"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:background="@drawable/btns_background"
+            android:textColor="#fff"
+            android:textSize="15sp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginTop="3dp"
+            android:text="ADD CART"/>
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
